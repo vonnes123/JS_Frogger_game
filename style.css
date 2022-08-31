@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.gameBoard{
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid black;
+    margin: auto;
+}
+.box{
+    border: 1px solid #222;
+    text-align: center;
+}
