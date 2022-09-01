@@ -2,14 +2,49 @@
     box-sizing: border-box;
     margin: 0;
 }
+.water{
+    background-image: url(/water.jpg);
+    background-size: cover;
+}
+.land{
+    background-color: chartreuse;
+}
+.safe{
+    background-color: yellow;
+}
+.road{
+    background-color: black;
+}
+.car{
+    background-image: url(/car.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.log{
+    background-image: url(/log.jpg);
+    background-size: cover;
+}
+.frog{
+    background-image: url(/frog.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.message{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
 .gameBoard{
     display: grid;
     width: 100vw;
     height: 80vh;
     border: 1px solid black;
     margin: auto;
+    padding: 0;
 }
 .box{
-    border: 1px solid #222;
     text-align: center;
+    color: #eee;
 }
